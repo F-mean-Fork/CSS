@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8" />          <!-- кодировка html файла -->
+        <title>Ivan`s first task</title>  <!-- название вкладки в браузере -->
+        <style> h1 {text-align: center;}</style>
+        <link href="styles.css" rel="stylesheet"/> 
+    </head>
+    <body>
+        <div class="container">
+
+            <img src ="Logo.jpg" class="logo1 alt = "Our logo"/>
+            
+            <hr size = "10", nonshade, style="background-image: linear-gradient(to right, lime, purple)">
+            <div class="title1">
+                "Wassaby" cover-band website
+            </div>
+
+            <hr size = "10", style="background-image: linear-gradient(to right, lime, purple)">
+            
+            <div class="info">  
+                <p><strong>"Wassaby"</strong> is musical group from Tomsk. 
+                    It was founded by <strong>Ivan Lukiev</strong> in 2017 during his first year at 
+                    <strong>Tomsk Polytechnic University</strong>. The group's repertoire is varied,
+                    but one thing has remained constant - the frantic energy at their 
+                    concerts.
+                </p>
+            </div>
+
+            <div class="card bg-green">
+                <h2>Performance set-list</h2>
+                <ol> 
+                    <li>Limp Bizkt - Take a look around</li>
+                    <li>The Weeknd - The Hills </li>
+                    <li>Noize MC - Make destroy</li>
+                </ol>
+            </div>
+
+            <div class="icons">     
+                <h2>Our media:</h2>           
+                <strong><img src="vk-communication-internet-network-chat-interaction-svgrepo-com.svg" width="20" height="20" alt="VK icon"> <a href="https://vk.com/wassaby_band" target="_blank"> VK group</a></strong>
+                |
+                <strong><img src="youtube-color-svgrepo-com.svg" width="20" height="20" alt="Youtube icon"> <a href="https://www.youtube.com/@F_means_Fork/featured" target="_blank"> Wassaby videos</a></strong> 
+            </div>
+
+            <div class="table bg-violet">
+                <h2> Performance Experience </h2>
+                <table class="tb"> 
+                    <tr class="temp">
+                        <th><strong>Performance name</strong></th>
+                        <th><strong>Date</strong></th>
+                    </tr>
+                    <tr  class="temp" >
+                        <td>City Day</td>
+                        <td>2017-2019</td>
+                    </tr>
+                    <tr class="temp"> 
+                        <td>Freshman`s Day</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr class="temp"> 
+                        <td>New Year Party</td>
+                        <td>2020</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cont">
+                <hr size = "5", style="background-image: linear-gradient(to right, lime, purple)">
+                <h2>Write us something about yourself</h2>
+                <hr size = "5", style="background-image: linear-gradient(to right, lime, purple)">
+
+                <form action = "/"> 
+                    <div class="row">
+                        <div class="form-group"> 
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" placeholder="Your name">     
+                        </div>
+                        <div class="form-group"> 
+                            <label for="email">Your Mail</label>
+                            <input type="text" id="email" placeholder="Your mail"> 
+                        </div>         
+                    </div>
+
+                    <div class="form-group"> 
+                        <label for="text">Your Feelings</label>
+                        <textarea id="text" rows = "1" cols = "25"> </textarea>
+                    </div>
+
+                    <div class="form-group-color">
+                        <label for="color">Choose color of your day</label>
+                        <input type="color" id="color">    
+                    </div>
+                    
+
+                    <input class="btn" type="submit" value="Send">   
+                </form>
+            </div>
+
+        <div style="margin-bottom: 500px;"></div>
+        </div>
+    </body>
+
+</html>
